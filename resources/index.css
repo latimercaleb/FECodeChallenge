@@ -34,14 +34,27 @@ h2{
       display: inline-block;
       margin-left: 150px;
 }
+.nav-footer{
+      list-style-type: none;
+      padding-left: 20px;
+      display: inline-block;
+      margin-left: 550px;
+}
 .hamburger-btn{
       float: right;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
 }
 .hamburger-btn > div{
       height: 10px;
       font-weight: bold;
 }
 .nav > li{
+      display: inline;
+      padding: 10px 10px 5px 10px;
+}
+.nav-footer > li{
       display: inline;
       padding: 10px 10px 5px 10px;
 }
@@ -61,7 +74,7 @@ h2{
 }
 
 .section-right{
-      margin-left: 500px;
+      margin-left: 200px;
 }
 
 section{
@@ -69,5 +82,44 @@ section{
 }
 
 .form-header{
-      
+      margin-left: 15px;
+      text-transform: uppercase;
 }
+
+button{
+      width: 255px;
+      height: 20px;
+      background-color: #0080FF;
+      color: white;
+}
+a{
+      color: white;
+      text-decoration: none;
+}
+a:hover{
+      text-decoration: underline;
+}
+input{
+      width: 250px;
+}
+
+.footer-p{
+      display: inline-block;
+}
+
+.form-footer{
+      margin-bottom: 0;
+      text-align: center;
+}
+.form-footer-link{
+      margin-top: 0;
+      text-align: center;
+}
+
+.footer{
+      min-height: calc(100vh - 70px);
+}
+
+@media screen and (min-width: 768px) {
+      /*Restyle classes for mobile view*/
+}​

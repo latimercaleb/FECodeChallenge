@@ -1,8 +1,8 @@
 <!DOCTYPE html>
       <head>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta name="author" content="Caleb">
+            <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+            <meta name="author" content="Caleb Latimer">
             <meta name="description" content="Content for FE Code Challenge">
             <title>Stamp</title>
             <link rel="stylesheet" type="text/css" href="resources/index.css"/>
@@ -11,12 +11,12 @@
             <div class='header-wrapper'>
                   <h2>Stamp</h2>
                   <ul class='nav'>
-                        <li>About</li>
-                        <li>Integrations</li>
-                        <li>Pricing</li>
-                        <li>Contacts</li>
+                        <li><a href='#'>About</a></li>
+                        <li><a href='#'>Integrations</a></li>
+                        <li><a href='#'>Pricing</a></li>
+                        <li><a href='#'>Contacts</a></li>
                   </ul>
-                  <div class='hamburger-btn'>
+                  <div class='hamburger-btn'  onclick='expandMenu()'>
                         <div>______</div>
                         <div>______</div>
                         <div>______</div>
@@ -29,22 +29,23 @@
                   </section>
                   <section class='section-right'>
                         <p class='form-header'>Sign Up For Free</p>
-                        <form action='post'>
-                              <input type='text' name='client_name' placeholder='Name'/>
-                              <input type='text' name='client_email' placeholder='E-mail'/>
-                              <input type='text' name='client_password' placeholder='Password'/>
+                        <form>
+                              <input type='text' name='client_name' placeholder='Name'/><br/>
+                              <input type='text' name='client_email' placeholder='E-mail'/><br/>
+                              <input type='text' name='client_password' placeholder='Password'/><br/>
                               <button type='submit' value='submit'>Sign up ></button>
                         </form>
+                        <p class='form-footer'><small>By clicking "Sign up" I agree to our </small></p>
+                        <p class='form-footer-link'><small><a href='#'>Terms of Service</a></small></p>
                   </section>
             </div>
-            <small>By clicking "Sign up" I agree to our Terms of Service</small>
             <div class='footer'>
-                  <p>&copy; 2016 Stamp. All Rights Reserved</p>
-                  <ul class='nav'>
-                        <li>Contact</li>
-                        <li>Help</li>
-                        <li>Terms Of Use</li>
-                        <li>Privacy Policy</li>
+                  <p class='footer-p'>&copy; 2016 Stamp. All Rights Reserved</p>
+                  <ul class='nav-footer'>
+                        <li><a href='#'>Contact</a></li>
+                        <li><a href='#'>Help</a></li>
+                        <li><a href='#'>Terms Of Use</a></li>
+                        <li><a href='#'>Privacy Policy</a></li>
                   </ul>
             </div>
             <script type="text/javascript" src="resources/index.js"></script>
